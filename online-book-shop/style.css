@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#navColor{
+    background-color:#28242c !important;
+}
+
+@media screen and (max-width: 576px){
+
+    .signup{
+        margin-top: 8px !important;
+    }
+    .signin{
+        margin-top: 8px !important;
+    }
+
+}
+
+.fullprice{
+    font-weight: 200;
+}
+.price{
+    font-weight: 600;
+}
+.mrp{
+    font-weight: 500;
+}
+.priceoff{
+    font-weight: 600;
+}
+
+.linkTitle{
+    font-weight: 700; 
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+.linkTitle:hover{
+    
+    text-decoration: underline;
+    text-decoration-thickness: 0.3rem;
+    text-decoration-style: solid;
+    /* text-decoration-skip: ink; */
+    text-decoration-skip-ink: none;
+}
+
+.smallLinkTitle{
+    /* font-weight: 700;  */
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+.smallLinkTitle:hover{
+    
+    text-decoration: underline;
+    text-decoration-thickness: 0.2rem;
+    text-decoration-style: solid;
+    /* text-decoration-skip: ink; */
+    text-decoration-skip-ink: none;
+}
+.f-w1{
+    font-weight:100;
+}
+.f-w2{
+    font-weight:200;
+}
+.f-w3{
+    font-weight:300;
+}
+.f-w4{
+    font-weight:400;
+}
+.f-w5{
+    font-weight:500;
+}
+.f-w6{
+    font-weight:600;
+}
+.f-w5{
+    font-weight:700;
+}
+
+.ownbtn{
+    transition: all 0.5s ease-in-out;
+}
+.ownbtn:hover{
+    background-color: aliceblue!important;
+    color:blue;
+    font-weight:500;
+}
+.ownbtnred{
+    transition: all 0.5s ease-in-out;
+    color:white;
+}
+.ownbtnred:hover{
+    background-color: aliceblue!important;
+    color:rgb(255, 60, 0);
+    font-weight:500;
+    border:1px solid red;
+}
+
+.img-hover-thumb{
+    overflow: hidden;  
+    cursor: pointer;  
+  }
+.img-hover-thumb img{
+    transition: transform .4s ease;
+  }
+.img-hover-thumb:hover img{
+    transform: scale(1.3);
+  }
+
+.img-hover-small{
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.img-hover-small:hover{
+    transform: scale(1.04);
+}
+
+/* Css for Loading Animation */
+#loadanimation{
+    display:flex;
+    align-items:center;
+    width:100%;
+    height:100vh;
+    justify-content:center;
+    background-color: rgba(244,245,246,255) !important;
+    background: rgba(12,12,12,255) url('https://cdn.dribbble.com/users/108183/screenshots/2301400/spinnervlll.gif') no-repeat center;
+}
+
+
+/* For Only One Line Title */
+
+#oneLineTitle{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: initial;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;    
+}
+
+.oneLineTitleClass{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: initial;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;    
+}
+
+/* For Only Two Line Title */
+#twoLineTitle{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: initial;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;    
+}
+
+/* For Navbar Active Classes */
+a.active{
+    color:#fabc8d !important;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-thickness: 0.3rem;
+    text-decoration-style: solid;
+    /* text-decoration-skip: ink; */
+    text-decoration-skip-ink: none;
+}
+
+#logohover{
+    transition: all 0.5s ease-in-out;
+}
+
+#logohover:hover{
+    cursor:pointer;
+    color:rgb(94, 255, 107) !important;
+}
+#brandhover{
+    transition: all 0.5s ease-in-out;
+}
+
+#brandhover:hover{
+    cursor:pointer;
+    color:rgb(227, 88, 240) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Css Styles for Footer */
+
+
+.fcontainer{
+	max-width: 1170px;
+    max-height:100%;
+	margin:auto;
+    padding: 10px 10px;
+}
+.frow{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 10px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 2px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+#sliderImageHeight{
+    height:40vh !important;
+ }
+
+@media(max-width: 1100px){
+   #sliderImageHeight{
+      height:20vh !important;
+   }
+  }
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+ }
+
+}
+
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+ }
+ #sliderImageHeight{
+    height:25vh !important;
+ }
+ #cartBtn{
+    flex-direction: column;
+    gap:10px 20px;
+    
+ }
+ 
+
+}
+
+
+
+
+
